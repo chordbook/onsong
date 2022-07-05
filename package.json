@@ -1,0 +1,13 @@
+{
+  "name": "onsong",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "peggy src/grammar.peggy"
+  },
+  "devDependencies": {
+    "annotate-code": "^2.0.2",
+    "jest": "^28.1.2",
+    "peggy": "^2.0.1",
+    "pegjs-backtrace": "^0.2.1"
+  }
+}
