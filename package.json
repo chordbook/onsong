@@ -1,7 +1,10 @@
 {
   "name": "onsong",
+  "description": "A JavaScript library for parsing and formatting chord sheets in the OnSong File Format.",
   "version": "0.0.1",
   "main": "./src",
+  "author": "Brandon Keepers",
+  "license": "ISC",
   "scripts": {
     "build": "peggy src/grammar.peggy"
   },
@@ -10,5 +13,26 @@
     "jest": "^28.1.2",
     "peggy": "^2.0.1",
     "pegjs-backtrace": "^0.2.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chordbook/onsong.git"
+  },
+  "keywords": [
+    "onsong",
+    "chordsheet",
+    "chords",
+    "chordpro",
+    "guitar",
+    "tablature",
+    "guitar-tabs",
+    "ukulele"
+  ],
+  "bugs": {
+    "url": "https://github.com/chordbook/onsong/issues"
+  },
+  "homepage": "https://github.com/chordbook/onsong#readme"
 }
