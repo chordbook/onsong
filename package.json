@@ -1,6 +1,7 @@
 {
   "name": "onsong",
   "version": "0.0.1",
+  "main": "./src",
   "scripts": {
     "build": "peggy src/grammar.peggy"
   },
